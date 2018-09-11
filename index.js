@@ -1,9 +1,13 @@
 // Add your functions and code here
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5ae9e93faf23a14d903ccee7d718112e34931cc5
 var kittens = ['Milo', 'Otis', 'Garfield']
 
 function destructivelyAppendKitten(name){
   kittens.push(name)
+<<<<<<< HEAD
   return kittens
 }
 
@@ -44,4 +48,11 @@ function removeFirstKitten(name){
   var newKittens = [...kittens]
   newKittens.shift(name)
   return newKittens
+=======
+  return kittnes
+}
+function desctructivelyPrependKittem(name){
+  kittens.unshift(name)
+  return kittens
+>>>>>>> 5ae9e93faf23a14d903ccee7d718112e34931cc5
 }
